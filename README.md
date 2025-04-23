@@ -8,7 +8,7 @@
 
 ## Overview
 
-This repository contains the implementation of the IFJ24 compiler/interpreter, including lexer, parser, and code generator.
+This repository contains the implementation of the IFJ24 compiler/interpreter, including lexer, parser, and code generator. For specifics check **Documentation.pdf** file
 
 ## Project Structure
 
