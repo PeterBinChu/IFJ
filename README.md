@@ -63,13 +63,6 @@ Defined in `error_codes.h`, used throughout the program for consistent error rep
 - GCC compiler
 - Standard C library
 
-## Contributing
-
-Follow standard practices:
-- Fork the repository
-- Create a branch for your changes
-- Submit a pull request with clear descriptions of your changes.
-
 ## License
 
 This project is part of an academic course and is intended for educational use only.
