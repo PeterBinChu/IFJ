@@ -1,0 +1,4 @@
+const ifj = @import("ifj24.zig");
+pub fn fetch() []u8 {
+    var str: []u8 = "data";
+}

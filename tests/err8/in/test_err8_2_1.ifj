@@ -1,0 +1,4 @@
+const ifj = @import("ifj24.zig");
+pub fn main() void {
+    var nullValue = ifj.substring(null, 0, 1);
+}

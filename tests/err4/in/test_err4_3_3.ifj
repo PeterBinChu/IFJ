@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+pub fn multiply() i32 {
+    return 3;
+}
+pub fn main() void {
+    multiply();
+}

@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+pub fn main() void {
+    var base: f64 = 2.0;
+    var height: f64 = 5.0;
+    var triangle_area = 0.5 * base * height;
+    ifj.write(triangle_area);
+}

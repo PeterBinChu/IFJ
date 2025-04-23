@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+pub fn compute(x: i32) i32 {
+    return x;
+}
+pub fn compute(x: i32) i32 {
+    return x * 2;
+}

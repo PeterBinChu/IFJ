@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+pub fn bar() i32 {
+    return 0;
+}
+pub fn bar() i32 {
+    return 1;
+}

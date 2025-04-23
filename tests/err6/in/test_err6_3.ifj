@@ -1,0 +1,9 @@
+const ifj = @import("ifj24.zig");
+
+pub fn test() i32 {
+    return 5.5;  // vrací float místo int
+}
+
+pub fn main() void {
+    var x = test();
+}

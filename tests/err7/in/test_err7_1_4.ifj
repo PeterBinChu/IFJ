@@ -1,0 +1,6 @@
+const ifj = @import("ifj24.zig");
+pub fn main() void {
+    var str: []u8 = "abc";
+    var num: i32 = 10;
+    var invalid = str * num;
+}

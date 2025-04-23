@@ -1,0 +1,8 @@
+const ifj = @import("ifj24.zig");
+
+pub fn ifj.write() void {  // pokus o redefinici vestavěné funkce
+    return;
+}
+
+pub fn main() void {
+}

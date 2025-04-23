@@ -1,0 +1,6 @@
+const ifj = @import("ifj24.zig");
+pub fn main() void {
+    var num1: i32 = 10;
+    var num2: f64 = 5.5;
+    var result = num1 * num2 - "error";
+}

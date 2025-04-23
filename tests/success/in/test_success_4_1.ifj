@@ -1,0 +1,6 @@
+const ifj = @import("ifj24.zig");
+pub fn main() void {
+    var text: []u8 = "Hello world";
+    var length = ifj.length(text);
+    ifj.write(length);
+}

@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+
+pub fn main() void {
+    var x: i32 = 5;
+    var str: []u8 = ifj.string("hello");
+    var res = x + str;  // nelze sčítat int a string
+}

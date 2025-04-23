@@ -1,0 +1,77 @@
+# IFJ24
+# @brief .gitignore file for IFJ24 project
+# @author: Václav Paťorek(xpator00)
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Build
+build/
+cmake-build-debug/
+IFJ24
+IFJ24_tests
+xpator00.zip
+
+# Makefile-based, cmake not needed
+CMakeLists.txt
+
+# IDE stuff
+.idea/
+.vscode/
+
+# Random temp files on pc
+.fuse_hidden*
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# OS specific files
+.DS_Store
+Thumbs.db

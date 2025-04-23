@@ -1,0 +1,8 @@
+const ifj = @import("ifj24.zig");
+pub fn multiply(a: i32, b: i32) i32 {
+    return a * b;
+}
+pub fn main() void {
+    var result = multiply(4, 5);
+    ifj.write(result);
+}

@@ -1,0 +1,9 @@
+const ifj = @import("ifj24.zig");
+
+pub fn recursive(x: i32) void {
+    recursive(x);  // nekonečná rekurze
+}
+
+pub fn main() void {
+    recursive(1);
+}

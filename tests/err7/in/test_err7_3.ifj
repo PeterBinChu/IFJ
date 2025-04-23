@@ -1,0 +1,8 @@
+const ifj = @import("ifj24.zig");
+
+pub fn main() void {
+    var str: []u8 = ifj.string("hello");
+    if (str > 5) {  // nelze porovnávat string s int
+        ifj.write(str);
+    }
+}

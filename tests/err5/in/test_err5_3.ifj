@@ -1,0 +1,6 @@
+const ifj = @import("ifj24.zig");
+
+pub fn main() void {
+    const x: i32 = 5;
+    x = 10;  // pokus o změnu konstanty
+}

@@ -1,0 +1,6 @@
+const ifj = @import("ifj24.zig");
+pub fn main() void {
+    var str = ifj.string("abcdef");
+    var char = ifj.substr(str, 2, 4);
+    ifj.write(char);
+}

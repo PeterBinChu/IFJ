@@ -1,0 +1,8 @@
+const ifj = @import("ifj24.zig");
+pub fn calculateArea(width: f64, height: f64) f64 {
+    return width * height;
+}
+pub fn main() void {
+    var area = calculateArea(3.0, 4.0);
+    ifj.write(area);
+}

@@ -1,0 +1,8 @@
+const ifj = @import("ifj24.zig");
+pub fn isPositive(n: i32) bool {
+    return n > 0;
+}
+pub fn main() void {
+    var check = isPositive(10);
+    ifj.write(check);
+}

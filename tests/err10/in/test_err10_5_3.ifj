@@ -1,0 +1,5 @@
+const ifj = @import("ifj24.zig");
+pub fn main() void {
+    var arr: []i32 = []i32{1, 2, 3};
+    arr = "text";
+}

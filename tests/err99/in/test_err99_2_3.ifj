@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+pub fn infiniteLoop() void {
+    infiniteLoop();
+}
+pub fn main() void {
+    infiniteLoop();
+}

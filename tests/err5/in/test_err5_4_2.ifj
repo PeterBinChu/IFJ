@@ -1,0 +1,4 @@
+const ifj = @import("ifj24.zig");
+pub fn update(b: i32) void {
+    b = b + 10;
+}

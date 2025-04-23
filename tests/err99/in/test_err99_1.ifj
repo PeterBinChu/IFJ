@@ -1,0 +1,5 @@
+const ifj = @import("ifj24.zig");
+
+pub fn main() void {
+    const str = ifj.string("extremely_long_string_that_repeats_many_times_extremely_long_string_that_repeats_many_times_extremely_long_string_that_repeats_many_times_...");  // opakuje se tisíckrát
+}

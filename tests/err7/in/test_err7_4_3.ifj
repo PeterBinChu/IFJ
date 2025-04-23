@@ -1,0 +1,6 @@
+const ifj = @import("ifj24.zig");
+pub fn main() void {
+    var s1: []u8 = "test";
+    var s2: []u8 = "data";
+    var outcome = s1 % s2;
+}

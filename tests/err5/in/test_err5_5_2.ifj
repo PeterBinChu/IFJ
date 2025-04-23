@@ -1,0 +1,4 @@
+const ifj = @import("ifj24.zig");
+pub fn ifj.readFloat() f64 {
+    return 0.0;
+}

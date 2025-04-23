@@ -1,0 +1,10 @@
+const ifj = @import("ifj24.zig");
+
+pub fn add(a: i32, b: i32) i32 {
+    return a + b;
+}
+
+pub fn main() void {
+    var result = add(5, 3);
+    ifj.write(result);
+}

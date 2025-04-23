@@ -1,0 +1,5 @@
+const ifj = @import("ifj24.zig");
+pub fn main() void {
+    var z: []u8 = "string";
+    ifj.write("Hello world");
+}

@@ -1,0 +1,10 @@
+const ifj = @import("ifj24.zig");
+
+pub fn main() void {
+    var x;  // chybí typ i inicializace
+    if (true) {
+        x = 5;
+    } else {
+        x = "hello";
+    }
+}

@@ -1,0 +1,13 @@
+const ifj = @import("ifj24.zig");
+
+pub fn main() void {
+    if (true) {
+        if (true) {
+            if (true) {
+                if (true) {
+                    // ... (stovky vnořených if bloků)
+                }
+            }
+        }
+    }
+}

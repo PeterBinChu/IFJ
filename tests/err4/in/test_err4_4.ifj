@@ -1,0 +1,9 @@
+const ifj = @import("ifj24.zig");
+
+pub fn test() i32 {
+    return "hello";  // vrací string místo i32
+}
+
+pub fn main() void {
+    var x: i32 = test();
+}

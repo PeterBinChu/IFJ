@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+pub fn hello() []u8 {
+    return "world";
+}
+pub fn hello() []u8 {
+    return "error";
+}

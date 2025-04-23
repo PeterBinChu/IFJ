@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+pub fn concat(a: []u8, b: []u8) void {
+    ifj.write(a);
+}
+pub fn main() void {
+    concat("a");
+}

@@ -1,0 +1,13 @@
+const ifj = @import("ifj24.zig");
+
+pub fn main() void {
+    var i: i32 = 0;
+    while (i < 5) {
+        if (i > 2) {
+            ifj.write(i);
+        } else {
+            ifj.write(0);
+        }
+        i = i + 1;
+    }
+}

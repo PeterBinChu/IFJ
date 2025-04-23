@@ -1,0 +1,6 @@
+const ifj = @import("ifj24.zig");
+
+pub fn main() void {
+    x = 5;  // použití před deklarací
+    var x: i32 = 0;
+}

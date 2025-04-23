@@ -1,0 +1,6 @@
+const ifj = @import("ifj24.zig");
+
+pub fn main() void {
+    var x: i32 = 5;
+    x = 10;  // pouze zápisy, nikdy se nečte
+}

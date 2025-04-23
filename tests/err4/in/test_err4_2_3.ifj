@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+pub fn sum(a: i32, b: i32) void {
+    ifj.write(a + b);
+}
+pub fn main() void {
+    sum("hello", 2);
+}

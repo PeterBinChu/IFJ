@@ -1,0 +1,2 @@
+var str: []u8 = "No header";
+ifj.write(str);

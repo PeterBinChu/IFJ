@@ -1,0 +1,9 @@
+const ifj = @import("ifj24.zig");
+
+pub fn test(x: i32) void {
+    x = 10;  // pokus o modifikaci parametru
+}
+
+pub fn main() void {
+    test(5);
+}

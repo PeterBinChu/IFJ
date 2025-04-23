@@ -1,0 +1,6 @@
+const ifj = @import("ifj24.zig");
+pub fn main() void {
+    var x: f64 = 2.5;
+    var y: bool = true;
+    var result = x * y;
+}

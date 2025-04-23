@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+pub fn invalidFunc(param) void {
+    ifj.write(param);
+}
+pub fn main() void {
+    invalidFunc(5);
+}

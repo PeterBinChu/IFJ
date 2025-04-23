@@ -1,0 +1,8 @@
+const ifj = @import("ifj24.zig");
+
+pub fn main() void {
+    var x: i32 = 5;
+    var y: []u8 = ifj.string("hello");
+    var z: f64 = 3.14;
+    var res = x + y * z;  // míchání nekompatibilních typů
+}

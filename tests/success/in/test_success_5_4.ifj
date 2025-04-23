@@ -1,0 +1,6 @@
+const ifj = @import("ifj24.zig");
+pub fn main() void {
+    for (var i: i32 = 1; i <= 5; i++) {
+        ifj.write(i * i);
+    }
+}

@@ -1,0 +1,4 @@
+const ifj = @import("ifj24.zig");
+pub fn check() bool {
+    return;
+}

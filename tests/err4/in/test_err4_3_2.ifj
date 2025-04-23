@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+pub fn subtract() f64 {
+    return 2.5;
+}
+pub fn main() void {
+    subtract();
+}

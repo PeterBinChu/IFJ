@@ -1,0 +1,6 @@
+const ifj = @import("ifj24.zig");
+pub fn main() void {
+    var y: f64 = 3.14;
+    var z: bool = true;
+    if (y > z) {}
+}

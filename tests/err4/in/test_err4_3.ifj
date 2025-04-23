@@ -1,0 +1,9 @@
+const ifj = @import("ifj24.zig");
+
+pub fn test() i32 {
+    return 5;
+}
+
+pub fn main() void {
+    test();  // nezachycení návratové hodnoty
+}

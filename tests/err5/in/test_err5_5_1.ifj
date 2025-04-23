@@ -1,0 +1,4 @@
+const ifj = @import("ifj24.zig");
+pub fn ifj.readInt() i32 {
+    return 0;
+}

@@ -1,0 +1,4 @@
+const ifj = @import("ifj24.zig");
+pub fn ifj.concat(a: []u8, b: []u8) []u8 {
+    return a ++ b;
+}

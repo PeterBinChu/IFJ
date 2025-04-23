@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+
+pub fn main() void {
+    if (5) {  // podmínka musí být boolean
+        ifj.write("Hello");
+    }
+}

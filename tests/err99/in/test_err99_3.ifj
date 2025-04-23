@@ -1,0 +1,8 @@
+const ifj = @import("ifj24.zig");
+
+pub fn main() void {
+    var var1: i32 = 1;
+    var var2: i32 = 2;
+    // ... (stovky deklarací proměnných)
+    var var999: i32 = 999;
+}

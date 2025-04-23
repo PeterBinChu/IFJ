@@ -1,0 +1,10 @@
+const ifj = @import("ifj24.zig");
+
+pub fn test(a: i32) void {
+    ifj.write(a);
+}
+
+pub fn main() void {
+    var x: f64 = 5.0;
+    test(x);  // nesprávný typ parametru
+}

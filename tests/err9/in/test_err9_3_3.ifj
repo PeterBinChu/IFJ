@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+pub fn another(text: []u8) void {
+    ifj.write("Ignore");
+}
+pub fn main() void {
+    another("text");
+}

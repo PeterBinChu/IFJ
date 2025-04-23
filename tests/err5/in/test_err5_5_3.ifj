@@ -1,0 +1,4 @@
+const ifj = @import("ifj24.zig");
+pub fn ifj.writeFloat(x: f64) void {
+    return;
+}

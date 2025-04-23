@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+pub fn main() void {
+    var pi: f64 = 3.14159;
+    var radius: f64 = 10.0;
+    var area = pi * radius * radius;
+    ifj.write(area);
+}

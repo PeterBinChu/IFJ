@@ -1,0 +1,4 @@
+const ifj = @import("ifj24.zig");
+pub fn modify(c: f64) void {
+    c = c / 2.0;
+}

@@ -1,0 +1,9 @@
+const ifj = @import("ifj24.zig");
+
+pub fn test() void {
+    return 5;  // return s hodnotou ve void funkci
+}
+
+pub fn main() void {
+    test();
+}

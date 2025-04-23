@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+pub fn missingType(x) void {
+    ifj.write(x);
+}
+pub fn main() void {
+    missingType(10);
+}

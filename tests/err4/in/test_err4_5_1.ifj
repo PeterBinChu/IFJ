@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+pub fn test(a: i32) void {
+    ifj.write(a);
+}
+pub fn main() void {
+    test(null);
+}

@@ -1,0 +1,10 @@
+const ifj = @import("ifj24.zig");
+
+pub fn test() void {
+    var x: i32 = 5;
+    return x;  // přebývající výraz v return void funkce
+}
+
+pub fn main() void {
+    test();
+}

@@ -1,0 +1,8 @@
+const ifj = @import("ifj24.zig");
+
+pub fn main() void {
+    const str1 = ifj.string("Hello, ");
+    const str2 = ifj.string("world!");
+    const result = ifj.concat(str1, str2);
+    ifj.write(result);
+}

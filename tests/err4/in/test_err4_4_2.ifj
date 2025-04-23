@@ -1,0 +1,7 @@
+const ifj = @import("ifj24.zig");
+pub fn add() []u8 {
+    return 3;
+}
+pub fn main() void {
+    var result: []u8 = add();
+}

@@ -1,0 +1,9 @@
+const ifj = @import("ifj24.zig");
+
+pub fn test(unused: i32) void {  // parametr unused není využit
+    ifj.write("Hello");
+}
+
+pub fn main() void {
+    test(5);
+}
